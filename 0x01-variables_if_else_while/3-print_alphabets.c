@@ -5,19 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char ch_low[] = "abcdefghijklmnopqrstuvwxyz";
-	char ch_up[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	for ( int i = 0; i < 26; i++)
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
+
+	for (i = 0; i < 52; i++)
 	{
-		putchar(ch_low[i]);
+		putchar(alp[i]);
 	}
-	for ( int i = 0; i < 26; i++)
-	{
-		putchar(ch_up[i]);
-	}
-	putchar("\n");
-	return 0;
+	putchar('\n');
+	return (0);
 }
