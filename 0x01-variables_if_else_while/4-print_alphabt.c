@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet.
+ * main - Prints the alphabet without q and e.
  *
  * Return: Always 0 (Success)
  */
@@ -16,5 +16,6 @@ int main(void)
 			putchar(i);
 		}
 	}
+	putchar("\n");
 	return 0;
-}
+}}
