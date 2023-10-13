@@ -13,12 +13,12 @@
  */
 void print_line(int n) {
     if (n <= 0) {
-        _putchar('\n');  // Print newline if n is 0 or less
+        _putchar('\n');
     } else {
         int i;
-        for (i = 0; i < n; i++) {
-            _putchar('_');  // Print the character '_'
+        for (i = 1; i < n; i++) {
+            _putchar('_'); 
         }
-        _putchar('\n');    // Print newline after the line
+        _putchar('\n');   
     }
 }
