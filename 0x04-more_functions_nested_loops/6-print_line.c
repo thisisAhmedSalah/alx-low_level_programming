@@ -11,11 +11,14 @@
  * Side effects:
  * Prints a line of n underscores to the standard output.
  */
-void print_line(int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        _putchar('_');
+void print_line(int n) {
+    if (n <= 0) {
+        _putchar('\n');  // Print newline if n is 0 or less
+    } else {
+        int i;
+        for (i = 0; i < n; i++) {
+            _putchar('_');  // Print the character '_'
+        }
+        _putchar('\n');    // Print newline after the line
     }
-    _putchar('\n');
 }
