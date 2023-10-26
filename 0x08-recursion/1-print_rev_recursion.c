@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * Prints the reverse of a string using recursion.
  *
